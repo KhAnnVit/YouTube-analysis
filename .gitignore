@@ -1,0 +1,36 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === Виртуальное окружение ===
+venv/
+.venv/
+env/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Секреты и конфиги ===
+.env
+*.key
+*.pem
+
+# === Данные (большие файлы) ===
+data/*.csv
+*.archive
+.kaggle/
+
+# === Кэш и временные файлы ===
+.cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# === Jupyter ===
+.ipynb_checkpoints/
